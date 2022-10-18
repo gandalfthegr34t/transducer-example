@@ -1,12 +1,11 @@
 #include <Wire.h>
-#include "rgb_lcd.h"
 #include <Servo.h>
 
 int trig = 3; // attach pin 3 to Trig
 int echo = 4; //attach pin 4 to Echo
 Servo motor;
 
-rgb_lcd lcd;
+
 
 void setup() {
   // initialize serial communication:
